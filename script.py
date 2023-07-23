@@ -1,8 +1,11 @@
+from userInfos import inputs 
+from userInfos import cleanInfors
 
 def UserAd():
-    #name = input("Digite o nome do arquivo txt")
-
-    script = "PowerShell New-ADUser -Name 'DAVID.NERES' -GivenName  'David' -Surname  'Souza Neres' -DisplayName 'David Souza Neres' -AccountPassword (ConvertTo-SecureString -AsPlainText 'Senha123' -force) -ChangePasswordAtLogon $true -Company 'SEFA' -Description '559754545' -Title 'Secretario de Gabinete' -Department 'Gabinete Secretario' -Path 'OU=Usuarios,DC=ramati,DC=local' -Enabled $true"
-
+    userData = inputs()
+    
+    script = f"PowerShell New-ADUser -Name '{userData[0]}' -UserPrincipalName '{userData[0]}@ramati.local' -GivenName  '{userData[1]}' -Surname  '{userData[2]}' -DisplayName '{userData[3]}' -AccountPassword (ConvertTo-SecureString -AsPlainText '{userData[4]}' -force) -ChangePasswordAtLogon $true -Company '{userData[5]}' -Description '{userData[6]}' -Title '{userData[7]}' -Department '{userData[8]}' -Path '{userData[9]}' -Enabled $true"
+    
+    cleanInfors()
     return script
 
