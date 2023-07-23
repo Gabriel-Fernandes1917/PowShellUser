@@ -1,0 +1,1 @@
+'This will be written to the text file' | Out-File -FilePath G:\workspace\PowShellUser\ile.txt
