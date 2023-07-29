@@ -1,4 +1,5 @@
 from datetime import date
+from checkAD import checkUserExists
 
 def password():
     data = date.today().strftime('%d-%m-%Y').split("-")
@@ -8,12 +9,13 @@ def password():
     return passData
     
 
+
 def inputs():
     fullnameUser = input("Digite o nome completo do usuário: ")
 
     nameSplited = fullnameUser.split(" ")
     
-    userName = f'{nameSplited[0].upper()}.{nameSplited[-1].upper()}'
+    userName = checkUserExists(nameSplited)
     givenName = f'{nameSplited[0]}'
     surname= ''
     for i in range(1, len(nameSplited)): surname = f'{surname} {nameSplited[i]}'
