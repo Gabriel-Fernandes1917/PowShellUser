@@ -1,8 +1,7 @@
 import subprocess
 
-subprocess.run("PowerShell 'hello pyphone' | Out-File -FilePath G:\workspace\PowShellUser\ile.txt")
+subprocess.run("PowerShell Get-ADUser -Filter 'Name -eq 'LUIZA.MATOS' ")
 
-
-script = {
-    
-}
+i= [12,32,16,54545]
+if 70 not in i:
+    print("have")
