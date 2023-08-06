@@ -1,5 +1,4 @@
 import subprocess
-import os
 from script import UserAd 
 
 
@@ -15,4 +14,3 @@ if "The term 'New-ADUser' is not recognized as the name of a cmdlet, function, s
     print("Error \n",systemRespon.stderr)
     
 
-# "The term 'New-ADUser' is not recognized as the name of a cmdlet," in systemRespon.stderr
