@@ -1,1 +1,1 @@
-OU=Users,OU=Adm,DC=ramati,DC=local
+OU=Usuarios,DC=ramati,DC=local
