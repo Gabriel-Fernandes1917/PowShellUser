@@ -3,7 +3,7 @@
 <p align="center"> Script de criação de usuários no Active Directory (AD) </p>
 <hr>
 <h4 align="center"> 
-	🚧  PowShellUserAD 🚀 Em faze de testes e aprimoramentos  🚧
+	🚧  PowShellUserAD 🚀 Em fase de testes e aprimoramentos  🚧
 </h4>
 
 ### Funcionalidades
