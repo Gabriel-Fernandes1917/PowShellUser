@@ -31,8 +31,17 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### Como usar
 
 - Acesse a pasta configs para configurar seu PowShellUserAD
-    - No arquivo padraoDeSenha.txt informe o padrão de senha que deseja usar (A senha é criada com Padrão + data do dia que o usuário foi criado).
-    - No e
+    - No arquivo padraoDeSenha.txt, informe o padrão de senha que deseja usar (A senha é criada com Padrão + data do dia que o usuário foi criado).
+    - No arquivo emailDomin.txt, informe o domínio do e-mail da empresa.
+    - No arquivo distinguishedName.txt, informe o path (locarização) do local onde o usuário será criado.
+    - No arquivo @userloginName.txt, insira @domínio da empresa.
+
+-Com a pasta configs configurada, execute o arquivo main.py
+    - Com ele em execução, sera solictado os dados do usuário que será criado.
+
+- Após prencher os dados o usuário será criado e a carta também.
+
+Segue um vídeo com a demostração do modo de uso e configuração da aplicação: [Vídeo](https://youtu.be/IjPdWiBJ6bw)
 
 ### Autor
 <hr>
