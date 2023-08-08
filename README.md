@@ -16,7 +16,7 @@
 
 ### Pré-requisitos
 
-Antes de começar a utilizar o progrma, você vai precisar ter instalado em sua máquina as seguintes ferramentas e bibliotecas:
+Antes de começar a utilizar o programa, você vai precisar ter instalado em sua máquina as seguintes ferramentas e bibliotecas:
 [Python](https://www.python.org/), [Subprocess Python](https://docs.python.org/3/library/subprocess.html), [Python-docx](https://python-docx.readthedocs.io/en/latest/), [Python datetime](https://docs.python.org/3/library/datetime.html).
 Além disto é nescessario ter o Powershell e o Active Directory no computador. 
 
